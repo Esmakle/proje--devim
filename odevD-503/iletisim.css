@@ -1,0 +1,60 @@
+
+h3{
+    margin:5%;
+    color: azure;
+}
+nav{
+    background-color:rgba(98, 124, 186, 0.5);
+   /* şeffaf arka plan anv için */
+}
+.nav-link{
+   
+   color: rgb(11, 13, 90);
+}
+
+a.nav-link:hover{background-color: rgb(31, 40, 106);
+    
+    color: rgb(108, 161, 231);
+    text-decoration: none;
+}
+
+/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
+.nav-link.disabled{
+    color: rgb(85, 19, 19);
+}
+
+.div1, .div2, .div3, .div4, .div5{
+ border-radius: 8px;
+    background-color: rgba(29, 83, 153, 0.5); 
+    color: rgb(238, 191, 195);
+     font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 150px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 30%;
+   
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover{
+    transition: 0.6s;/* geçişleri yumuşak yapmak için */
+      color: rgb(158, 158, 183);
+      background-color: rgb(27, 27, 93);
+      text-decoration: none;
+  }
+body{
+    background-color:rgb(115, 172, 218) ;
+    /* cornflowerblue */
+}
+i{
+    padding-right: 8px; /* imgelerle yazılar bitişik olmasın diye */
+}
+a{
+    text-decoration: none;
+}
+.form{
+    margin-left: 5%;
+}
+

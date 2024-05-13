@@ -1,0 +1,47 @@
+body{
+    background-image: url("image/çiç.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+ 
+nav{
+    background-color:rgba(230, 212, 95, 0.5);
+   /* şeffaf arka plan anv için */
+}
+.nav-link{
+   
+   color: rgb(68, 10, 10);
+}
+
+a.nav-link:hover{
+    background-color: rgb(111, 104, 26);
+    color: rgb(252, 189, 1);
+
+}
+
+
+/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
+.nav-link.disabled{
+    color: rgb(55, 50, 55);
+}
+ .card{
+   color: aliceblue;
+    border-radius: 10%;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    margin-top: 10%;
+    border-color: brown;
+}
+.card-body{ 
+    backdrop-filter: blur(15px);
+    background: transparent;
+}
+/* backdrop-filter: blur(15px);
+box-shadow: 0 0 10px ;
+padding: 30px 40px;
+border-radius: 15px;
+width: 420px;
+background: transparent;
+border:2px solid grey; */

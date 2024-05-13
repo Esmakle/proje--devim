@@ -1,0 +1,79 @@
+body{
+    background-image: url("image/mardin.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:cover;
+backdrop-filter: blur(9px);
+
+}
+nav{
+    background-color:rgba(135, 106, 78, 0.5);
+   /* şeffaf arka plan anv için */
+}
+
+.nav-link{
+    color: rgb(87, 42, 7);
+}
+a.nav-link:hover{
+    background-color: rgb(106, 70, 31);
+   
+    color: rgb(201, 166, 139);
+
+}
+
+ 
+
+/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
+.nav-link.disabled{
+    color: rgb(0, 0, 0);
+}
+.carousel-item img {
+    width: 500px;
+    height: 300px;
+    
+    
+    margin: auto;
+    display: block; /* Blok seviyesi öğe olarak ayarlar */
+}
+.main {
+    
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: beige;
+   
+}
+h5{
+    font-size: 30px;
+    color: cornsilk;
+    margin-left: 20%;
+}
+h3{
+    color: blanchedalmond;
+}
+p{  font-size: large;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: honeydew;
+
+}
+p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.main2 {
+    display: grid;
+    place-items: center; /* İçeriği hem dikey hem de yatay olarak ortala */
+    height: 300vh;
+}
+
+.content {
+ 
+    text-align: center; /* Metinleri yatayda ortala */
+}

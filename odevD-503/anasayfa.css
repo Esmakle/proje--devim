@@ -1,0 +1,56 @@
+body{
+    background-image: url("image/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+ 
+nav{
+    background-color:rgba(146, 118, 172, 0.5);
+   /* şeffaf arka plan anv için */
+}
+.nav-link{
+   
+   color: rgb(203, 175, 203);
+}
+
+a.nav-link:hover{
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+
+}
+.hak{
+    width: 40%;
+    margin:7%;
+    background-color:rgba(225, 222, 228, 0.5);
+    padding:2%;
+    border-radius:20%;
+font-size: larger;
+}
+
+ h1{
+color: rgb(238, 220, 255);
+ }
+ .hobim{
+    
+    padding:5px;
+    padding-left: 40%;
+    background-color: rgb(34, 11, 54);
+ }
+
+/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
+.nav-link.disabled{
+    color: black;
+}
+.card-body{ 
+    backdrop-filter: blur(15px);
+    background: transparent;
+} .card{
+    color: aliceblue;
+     border-radius: 10%;
+     backdrop-filter: blur(15px);
+     background: transparent;
+     margin-top: 6%;
+     border-color: rgb(53, 50, 50);
+ }
