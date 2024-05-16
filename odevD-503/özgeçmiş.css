@@ -1,17 +1,31 @@
+
+body{
+
+  background-color: bisque;
+}
+
+
+
+
 nav{
-    background-color:rgb(12, 12, 98);
+    background-color: rgb(211, 175, 134);
   
 }
 .nav-link{
    
-    color: rgb(183, 190, 251);
+    color: rgb(13, 58, 1);
  }
  a.nav-link:hover{
-    background-color: rgb(169, 199, 241);
-    color: rgb(12, 25, 112);
+    background-color: rgb(121, 134, 113);
+    color: rgb(103, 71, 23);
 
-}footer {
-    background-color: bisque;
+}
+
+.nav-link.disabled{
+  color: black;
+}
+footer {
+    background-color:  rgb(211, 175, 134);
     color: brown;
  margin-left: 260px;
  margin-top: 200px;
@@ -22,7 +36,7 @@ nav{
   }
   section{
     margin-left: 260px;
-    background-color: rgb(145, 167, 210);
+    background-color: rgb(121, 134, 113);
     color: black;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -38,14 +52,14 @@ nav{
     left: 0;
     height: 100vh;
     width: 250px; /* veya istediğiniz genişlik */
-    background-color: #8caadb; /* veya istediğiniz arka plan rengi */
+    background-color: #455744; /* veya istediğiniz arka plan rengi */
 }
 
 
   .div1, .div2, .div3, .div4, .div5{
     border-radius: 8px;
-       background-color: rgba(29, 83, 153, 0.5); 
-       color: rgb(6, 4, 124);
+       background-color: rgba(91, 128, 99, 0.5); 
+       color: rgb(145, 189, 154);
         font-size: 20px;
         margin:4px
         
@@ -54,13 +68,13 @@ nav{
    
   h2{
     padding-left: 8px;
-    color: rgb(253, 254, 255);
+    color: rgb(127, 179, 138);
   }
    
    .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover{
     transition: 0.6s; 
-      color: rgb(158, 158, 183);
-      background-color: rgb(27, 27, 93);
+      color: rgb(211, 175, 134);
+      background-color: rgb(33, 87, 5);
       text-decoration: none;
       /* right: 0; */
       
