@@ -1,4 +1,4 @@
-body{
+ body{
     background-image: url("image/clouds.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -8,7 +8,7 @@ body{
  
 nav{
     background-color:rgba(146, 118, 172, 0.5);
-   /* şeffaf arka plan anv için */
+   
 }
 .nav-link{
    
@@ -39,11 +39,12 @@ color: rgb(238, 220, 255);
     background-color: rgb(34, 11, 54);
  }
 
-/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
+
 .nav-link.disabled{
     color: black;
 }
 .card-body{ 
+    margin-bottom: 30px;
     backdrop-filter: blur(15px);
     background: transparent;
 } .card{
@@ -51,6 +52,179 @@ color: rgb(238, 220, 255);
      border-radius: 10%;
      backdrop-filter: blur(15px);
      background: transparent;
-     margin-top: 6%;
+    
+    
      border-color: rgb(53, 50, 50);
- }
+ } 
+ body {
+    background-image: url("image/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(146, 118, 172, 0.5);
+   
+    padding: 10px;
+}
+
+.nav-link {
+    color: rgb(203, 175, 203);
+    padding: 10px 15px;  
+}
+
+a.nav-link:hover {
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+} */
+/* Navbar bileşenleri*/ 
+.navbar {
+    background-color: rgba(146, 118, 172, 0.5);
+    padding: 10px; /* Navbar'ın içeriğinden kenarlara boşluk ekleyin */
+}
+
+.nav-link {
+    color: rgb(203, 175, 203);
+    padding: 10px 15px; /* Navbar bağlantılarının içeriği ile kenarları arasına boşluk ekleyin */
+}
+
+a.nav-link:hover {
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+}
+
+
+/* .navbar-toggler-icon {
+    background-color: rgba(203, 175, 203, 0.5); 
+}   */
+/* Navbar collapse içeriği */
+.navbar-collapse {
+    
+    justify-content: flex-end; 
+}
+
+
+
+.navbar-toggler {
+    display: none; /* Başlangıçta butonu gizle */
+}
+
+/* Ekran küçüldüğünde butonu göster */
+@media (max-width: 768px)
+ {
+    .navbar-toggler {
+        display: block; /* Butonu göster */
+        position: absolute; /* Pozisyonu ayarla */
+        top: 0; /* Üst kenara göre konumlandır */
+        right: 0; /* Sağ kenara göre konumlandır */
+        border-color: rgba(203, 175, 203, 0.5); /* Butonun çerçeve rengi */
+        background: transparent; /* Butonun arka planını şeffaf yap */
+        outline: none; /* Butona odaklandığında kenar çizgisini kaldır*/
+        padding: 0; /* Buton içeriğinden boşlukları kaldır */
+    }
+
+    /* Hamburger ikonu */
+    .navbar-toggler .fa-bars {
+        color: rgb(203, 175, 203); /* İkon rengi */
+        font-size: 24px; /* İkon boyutu */
+    }
+}
+
+
+
+.navbar-nav .nav-link {
+    margin-left: 15px; 
+}
+
+/* Navbar bağlantıları için boşluklar - sonuncu bağlantı için sağdan boşluk*/
+.navbar-nav .nav-link:last-child {
+    margin-right: 15px; /* Sağdan boşluk bırak */
+}
+
+/* Responsive tasarım için medya sorguları */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 10px; /* Daha küçük ekranlarda daha az boşluk*/
+    }
+
+    .navbar-nav .nav-link:last-child {
+        margin-right: 10px; /* Sağdan boşluk bırak */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        margin-left: 5px; /* Daha küçük ekranlarda daha az boşluk */
+    }
+
+    .navbar-nav .nav-link:last-child {
+        margin-right: 5px; /* Sağdan boşluk bırak*/
+    }
+}
+
+
+.hak {
+    width: 40%;
+    margin: 7%;
+    background-color: rgba(225, 222, 228, 0.5);
+    padding: 2%;
+    border-radius: 20%;
+    font-size: larger;
+}
+
+h1 {
+    color: rgb(238, 220, 255);
+}
+
+.hobim {
+    padding: 5px;
+    padding-left: 40%;
+    background-color: rgb(34, 11, 54);
+}
+
+.nav-link.disabled {
+    color: black;
+}
+
+.card-body {
+    margin-bottom: 30px;
+    backdrop-filter: blur(15px);
+    background: transparent;
+}
+
+.card {
+    color: aliceblue;
+    border-radius: 10%;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    /* margin-top: 6%; */
+    border-color: rgb(53, 50, 50);
+}
+
+/* Responsive tasarım için medya sorguları*/
+@media (max-width: 768px) {
+    nav {
+        padding: 5px; /* Daha küçük ekranlarda daha az boşluk */
+    }
+
+    .nav-link {
+        padding: 8px 10px; /* Daha küçük ekranlarda daha küçük boşluk */
+    }
+
+    .hobim {
+        padding-left: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hak {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .hobim {
+        padding-left: 10%;
+    }
+}

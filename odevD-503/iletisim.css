@@ -1,60 +1,92 @@
-
-h3{
-    margin:5%;
+h3 {
+    margin: 5%;
     color: azure;
 }
-nav{
-    background-color:rgba(98, 124, 186, 0.5);
-   /* şeffaf arka plan anv için */
-}
-.nav-link{
-   
-   color: rgb(11, 13, 90);
+
+.navbar {
+    background-color: rgba(98, 124, 186, 0.5); /* Şeffaf arka plan */
 }
 
-a.nav-link:hover{background-color: rgb(31, 40, 106);
-    
+.nav-link {
+    margin-right: 20px;
+    color: rgb(11, 13, 90);
+}
+
+.nav-link:hover {
+    background-color: rgb(31, 40, 106);
     color: rgb(108, 161, 231);
     text-decoration: none;
 }
 
-/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
-.nav-link.disabled{
+/* Bulunduğu sayfanın hangisi olduğunu belirtmek için */
+.nav-link.disabled {
     color: rgb(85, 19, 19);
 }
 
-.div1, .div2, .div3, .div4, .div5{
- border-radius: 8px;
-    background-color: rgba(29, 83, 153, 0.5); 
+.div1, .div2, .div3, .div4, .div5 {
+    border-radius: 8px;
+    background-color: rgba(29, 83, 153, 0.5);
     color: rgb(238, 191, 195);
-     font-size: 20px;
+    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 150px;
+    padding-left: 50px;
     margin-left: 5%;
     margin-bottom: 15px;
     margin-top: 15px;
     width: 30%;
-   
 }
 
-.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover{
-    transition: 0.6s;/* geçişleri yumuşak yapmak için */
-      color: rgb(158, 158, 183);
-      background-color: rgb(27, 27, 93);
-      text-decoration: none;
-  }
-body{
-    background-color:rgb(115, 172, 218) ;
-    /* cornflowerblue */
-}
-i{
-    padding-right: 8px; /* imgelerle yazılar bitişik olmasın diye */
-}
-a{
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover {
+    transition: 0.6s; /* Geçişleri yumuşak yapmak için */
+    color: rgb(158, 158, 183);
+    background-color: rgb(27, 27, 93);
     text-decoration: none;
 }
-.form{
+
+body {
+    background-color: rgb(115, 172, 218); /* Cornflowerblue */
+}
+
+i {
+    padding-right: 8px; /* İmgelerle yazılar bitişik olmasın diye */
+}
+
+a {
+    text-decoration: none;
+}
+
+.form {
     margin-left: 5%;
 }
 
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .div1, .div2, .div3, .div4, .div5 {
+        padding-left: 20px;
+        width: 80%;
+    }
+
+    .form {
+        margin-left: 0;
+        width: 90%;
+        padding: 10px;
+    }
+
+    h3 {
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-toggler .fa-bars {
+        color: rgb(11, 20, 192); /* İkon rengi */
+        font-size: 24px; /* İkon boyutu */
+    }
+}

@@ -1,45 +1,45 @@
-/* @import url("http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900& display:swap"); */
 
-body{
+body {
     background-image: url("image/damla.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment:fixed;
-    background-size:cover;
- 
+    background-attachment: fixed;
+    background-size: cover;
 }
-.wrapper{
+
+.wrapper {
     justify-content: center;
     align-items: center;
     display: flex;
     min-height: 90vh;
-border-radius: 10px;
-
+    border-radius: 10px;
 }
 
-.wrapper h1{
+.wrapper h1 {
     font-size: 40px;
     text-align: center;
     color: rgb(241, 135, 135);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-form{
+
+form {
     backdrop-filter: blur(15px);
-    box-shadow: 0 0 10px ;
+    box-shadow: 0 0 10px;
     padding: 30px 40px;
     border-radius: 15px;
     width: 420px;
     background: transparent;
-    border:2px solid grey;
+    border: 2px solid grey;
 }
-.wrapper .input-box{
+
+.input-box {
     position: relative;
     width: 100%;
-    height:50px;
-  
+    height: 50px;
     margin: 30px 0;
 }
-.input-box input{
+
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -51,83 +51,122 @@ form{
     color: rgb(187, 206, 222);
     padding: 20px 45px 20px 20px;
 }
-.input-box input::placeholder{
+
+.input-box input::placeholder {
     color: rgb(197, 201, 224);
 }
-.input-box i{
+
+.input-box i {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
 }
-.wrapper .remember-forgat{
+
+.remember-forgat {
     display: flex;
     justify-content: center;
     font-size: 14.5px;
     margin: -15px 0 15px;
-   
-    
 }
-.remember-forgat label input{
+
+.remember-forgat label input {
     accent-color: rgb(15, 15, 196);
     margin: 3px;
-   
 }
 
-
-.wrapper .btn{
+.btn {
     width: 100%;
     height: 100%;
     background: #fff;
-    border:none;
+    border: none;
     outline: none;
     border-radius: 40px;
-    cursor:pointer;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
 }
- 
- .btn:hover{
+
+.btn:hover {
     background-color: rgb(182, 99, 99);
-   color: aliceblue;
+    color: aliceblue;
 }
-.wrapper .register-link{
+
+.register-link {
     font-size: 14.5px;
     text-align: center;
     margin-top: 20px;
     color: rgb(182, 99, 99);
+}
 
-} 
-.register-link  a{
+.register-link a {
     color: rgb(248, 145, 145);
     text-decoration: none;
     font-weight: 600;
 }
-.register-link  a:hover{
+
+.register-link a:hover {
     text-decoration: underline;
     color: rgb(103, 211, 127);
 }
-nav{
-    background-color:rgba(31, 66, 109, 0.5);
-   /* şeffaf arka plan anv için */
+
+nav {
+    background-color: rgba(31, 66, 109, 0.5);
 }
-.nav-link{
-   
+
+.nav-link {
+    margin-right: 20px;
     color: rgb(255, 218, 218);
- }
-a.nav-link:hover{background-color:rgb(255, 150, 150);
-   
-    color:rgb(146, 17, 17);
-
 }
 
- .nav-link.disabled{
+.nav-link:hover {
+    background-color: rgb(255, 150, 150);
+    color: rgb(146, 17, 17);
+}
+
+.nav-link.disabled {
     color: rgb(214, 214, 214);
 }
-*{
-    margin: 0;;
-    padding: 0;;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .wrapper {
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+   
+}@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block; /* Butonu göster */
+    }
+
+    /* Hamburger ikonu */
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: }
+        .navbar-toggler .fa-bars {
+            color: rgb(144, 32, 84); /* İkon rengi */
+            font-size: 24px; /* İkon boyutu */
+        }

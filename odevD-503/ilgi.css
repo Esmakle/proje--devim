@@ -1,36 +1,69 @@
-body{
+body {
     background-image: url("image/fulm.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment:fixed;
-    background-size:cover;
+    background-attachment: fixed;
+    background-size: cover;
 }
-p{
+
+
+p {
     font-size: larger;
     color: azure;
 }
-h3{ font-size: 40px;
+
+h3 {
+    font-size: 40px;
     color: rgb(231, 233, 255);
 }
-nav{
-    background-color:rgba(108, 106, 136, 0.5);
-   /* şeffaf arka plan anv için */
-}
-ul{
+
+ul {
     color: rgb(217, 237, 255);
 }
-.nav-link{
-    margin-right: 20px;
- 
-   color: rgb(96, 198, 120);
+
+
+
+.nav-link {
+    color: coral !important; /* nav-linklerin rengini coral olarak ayarla */
+    margin-right: 20px; 
 }
 
-a.nav-link:hover{
-    background-color: rgb(9, 5, 67);
-    color: rgb(186, 217, 249);
+.nav-link:hover {
+    background-color: rgb(9, 9, 96);
+    color: coral !important; /* Hover durumunda rengi değiştir */
+}
+.nav-link.disabled {
+    color: rgb(252, 252, 252)  !important;
+}
+nav {
+    background-color: rgba(108, 106, 136, 0.5);
+}
 
+/* Navbar collapse içeriği */
+.navbar-collapse {
+    justify-content: flex-end; /* Navbar içeriğini sağa yasla */
 }
-/* bulunduğu sayfanın hangisi olduğunu belirtmek için  */
-.nav-link.disabled{
-    color: rgb(238, 234, 234);
+
+/* Buton özellikleri */
+.navbar-toggler {
+    display: none; /* Başlangıçta butonu gizle */
 }
+
+.card{
+    margin-top: 70px;
+    background-color: transparent;
+}
+.card-title{
+    color: coral;
+}
+/* Ekran küçüldüğünde butonu göster */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block; /* Butonu göster */
+    }
+
+    /* Hamburger ikonu */
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: }}

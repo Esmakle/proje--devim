@@ -1,23 +1,30 @@
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İlgi Alanlarım</title>
+     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
     <link rel="stylesheet" href="ilgi.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg ">
+   
+
+
+   <nav class="navbar navbar-expand-lg ">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse  justify-content-end " id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <!-- içinde bulunduğu sayfayı belirtir current -->
-        <a class="nav-link ml-5"  href="#" >Hakkımda <span class="sr-only "></span></a>
+          içinde bulunduğu sayfayı belirtir current  
+        <a class="nav-link ml-5"  href="anasayfa.html" >Hakkımda <span class="sr-only "></span></a>
         <a class="nav-link ml-5" href="memleket.html">Memleketim</a>
         <a class="nav-link ml-5 disabled" href="ilgi.html">ilgi Alanlarım</a>
         <a class="nav-link ml-5" href="özgeçmiş.html">Özgeçmiş</a>
@@ -25,7 +32,36 @@
         <a class="nav-link ml-5  " href="iletisim.html">İletişim</a>
       </div>
     </div>
-  </nav>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+    </button>
+  </nav> 
+ 
+
+  <div class="card-group">
+    <div class="card">
+      <img src="image/yürümek.jpg" class="responsive-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Yürüyüş Yapmak</h5>
+        <p class="card-text">Arkadaşlarımla ya da müzik dinleyrek yalnız başıma yapmaktan keyif aldığım bir aktivitedir. </p>
+         </div>
+    </div>
+    <div class="card">
+      <img src="image/yüzme.jpg" class="responsive-image" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Yüzmek</h5>
+        <p class="card-text">Eğlenceli ve sağlıklı insanı rahatlatan bir tarafı var. Fırsat buldukça yüzmeye giderim. </p>
+        </div>
+    </div>
+    <div class="card">
+      <img src="image/tick.jpg" class="responsive-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Film İzleme</h5>
+        <p class="card-text">Film izlemek benim hayatımın vazgeçilmez bir parçasıdır. Sinemada veya evimde fark etmeksizin izlemekten keyif alırım.</p>
+         </div>
+    </div>
+  </div>
 
     <div class="container mt-5">
         <h3> Filmler:</h3>
@@ -50,9 +86,7 @@
     </div>
  
     
-  
-  
-  
+ 
     <script>
         // Collect API anahtarınızı buraya ekleyin
         const apiKey = '6mNDF1us9S944OWK4z51QO:5EayvkEVftlYGn0pAaRv8l';
@@ -96,82 +130,121 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
-<!-- <!DOCTYPE html>
+</html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İlgi Alanlarım</title>
+     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ilgi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="anasayfa.html">Hakkımda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="memleket.html">Memleketim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ilgi.html">İlgi Alanlarım</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="özgeçmiş.html">Özgeçmiş</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="iletisim.html">İletişim</a>
-                </li>
-            </ul>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link ml-5" href="anasayfa.html">Hakkımda <span class="sr-only"></span></a>
+                <a class="nav-link ml-5" href="memleket.html">Memleketim</a>
+                <a class="nav-link ml-5 disabled" href="ilgi.html">İlgi Alanlarım</a>
+                <a class="nav-link ml-5" href="özgeçmiş.html">Özgeçmiş</a>
+                <a class="nav-link ml-5" href="login.html">Login</a>
+                <a class="nav-link ml-5" href="iletisim.html">İletişim</a>
+            </div>
         </div>
-    </nav>
-    <div class="container mt-5">
-        <h3>İlgi Alanlarım: Filmler</h3>
-        <div id="film-list" class="row"></div>
     </div>
+</nav>
+<div class="card-group">
+    <div class="card">
+      <img src="image/yürümek.jpg" class="responsive-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Yürüyüş Yapmak</h5>
+        <p class="card-text">Arkadaşlarımla ya da müzik dinleyrek yalnız başıma yapmaktan keyif aldığım bir aktivitedir. </p>
+         </div>
+    </div>
+    <div class="card">
+      <img src="image/yüzme.jpg" class="responsive-image" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Yüzmek</h5>
+        <p class="card-text">Eğlenceli ve sağlıklı insanı rahatlatan bir tarafı var. Fırsat buldukça yüzmeye giderim. </p>
+        </div>
+    </div>
+    <div class="card">
+      <img src="image/tick.jpg" class="responsive-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Film İzleme</h5>
+        <p class="card-text">Film izlemek benim hayatımın vazgeçilmez bir parçasıdır. Sinemada veya evimde fark etmeksizin izlemekten keyif alırım.</p>
+         </div>
+    </div>
+  </div>
+<div class="container mt-5">
+    <h3>Filmler:</h3>
+    <p>Film izlemenin çoğu zaman eğlendirici ve öğretici olduğunu düşünüyorum. Her türden film izlerim. Özellikle beğendiğim ve defalarca izlediğim filmler şunlardır:</p><br>
+    <ul>
+        <li>Bisiklet Hırsızları</li>
+        <li>Fight Club</li>
+        <li>Pulp Fiction</li>
+        <li>Seven</li>
+        <li>Casablanca</li>
+        <li>Big Fish</li>
+        <li>Rezervuar Köpekleri</li>
+        <li>La Vita A Bella</li>
+        <li>Schindler's List</li>
+    </ul>
+    <p>Beğendiğim filmler veya başka filmler hakkında daha fazla görmek için aratabilirsiniz...</p>
+    <div class="mb-3">
+        <input type="text" id="search-query" class="form-control" placeholder="Film ara...">
+        <button id="search-button" class="btn btn-primary mt-2">Film ara</button>
+    </div>
+    <div id="film-list" class="row"></div>
+</div>
 
-    <script>
-      // TMDB API anahtarınızı buraya ekleyin
-      const apiKey = 'e20d4061e38160917096e212737d7ff0';
-      const filmNames = ['Batman', 'Inception', 'The Matrix']; // Belirlediğiniz film isimleri
-  
-      filmNames.forEach(filmName => {
-          const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(filmName)}`;
-  
-          fetch(apiUrl)
-          .then(response => response.json())
-          .then(data => {
-              console.log(data.results); // API'den gelen verileri konsola yazdır
-              const film = data.results[0]; // İlk sonucu al
-              const filmList = document.getElementById('film-list');
-              if (film) {
-                  const posterUrl = film.poster_path ? `https://image.tmdb.org/t/p/w500${film.poster_path}` : 'image/damla.jpg'; // Alternatif görsel ekle
-                  const filmCard = document.createElement('div');
-                  filmCard.className = 'col-md-4 mb-4';
-                  filmCard.innerHTML = `
-                      <div class="card">
-                          <img src="${posterUrl}" class="card-img-top" alt="${film.title}">
-                          <div class="card-body">
-                              <h5 class="card-title">${film.title}</h5>
-                              <p class="card-text">Yıl: ${new Date(film.release_date).getFullYear()}</p>
-                          </div>
-                      </div>
-                  `;
-                  filmList.appendChild(filmCard);
-              } else {
-                  console.error('Poster bulunamadı:', filmName);
-              }
-          })
-          .catch(error => console.error('Veri çekme hatası:', error));
-      });
-  </script>
+<script>
+    // Collect API anahtarınızı buraya ekleyin
+    const apiKey = '6mNDF1us9S944OWK4z51QO:5EayvkEVftlYGn0pAaRv8l';
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    document.getElementById('search-button').addEventListener('click', function() {
+        const query = document.getElementById('search-query').value;
+        const apiUrl = `https://api.collectapi.com/imdb/imdbSearchByName?query=${encodeURIComponent(query)}`;
+
+        fetch(apiUrl, {
+            method: 'GET',
+            headers: {
+                'content-type': 'application/json',
+                'authorization': `apikey ${apiKey}`
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            const filmList = document.getElementById('film-list');
+            filmList.innerHTML = ''; // Önceki sonuçları temizle
+            data.result.forEach(film => {
+                const filmCard = document.createElement('div');
+                filmCard.className = 'col-md-4 mb-4';
+                filmCard.innerHTML = `
+                    <div class="card">
+                        <img src="${film.Poster}" class="card-img-top" alt="${film.Title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${film.Title}</h5>
+                            <p class="card-text">Yıl: ${film.Year}</p>
+                        </div>
+                    </div>
+                `;
+                filmList.appendChild(filmCard);
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> -->
+</html>
