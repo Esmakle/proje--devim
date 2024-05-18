@@ -44,7 +44,6 @@ color: rgb(238, 220, 255);
     color: black;
 }
 .card-body{ 
-    margin-bottom: 30px;
     backdrop-filter: blur(15px);
     background: transparent;
 } .card{
@@ -52,7 +51,6 @@ color: rgb(238, 220, 255);
      border-radius: 10%;
      backdrop-filter: blur(15px);
      background: transparent;
-     /* margin-top: 6%; */
-    
+     margin-top: 6%;
      border-color: rgb(53, 50, 50);
  }
