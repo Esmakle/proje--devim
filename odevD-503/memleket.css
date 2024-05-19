@@ -7,6 +7,7 @@ body {
     backdrop-filter: blur(9px);
     margin: 0;
     padding: 0;
+    
 }
 
 nav {
@@ -66,7 +67,19 @@ h3 {
     font-size: 40px;
     color: rgb(138, 119, 73);
 }
+.miras {
+ 
+    background-color: rgb(187, 91, 18);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:all-scroll;
+    border-radius: 5px;
+    text-align: center;
+  }
 
+ 
 p {
     font-size: larger;
     margin-right: 30px;
