@@ -1,0 +1,162 @@
+/* body{
+    background-image: url("image/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+ 
+nav{
+    background-color:rgba(146, 118, 172, 0.5);
+   
+}
+.nav-link{
+   
+   color: rgb(203, 175, 203);
+}
+
+a.nav-link:hover{
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+
+}
+.hak{
+    width: 40%;
+    margin:7%;
+    background-color:rgba(225, 222, 228, 0.5);
+    padding:2%;
+    border-radius:20%;
+font-size: larger;
+}
+
+ h1{
+color: rgb(238, 220, 255);
+ }
+ .hobim{
+    
+    padding:5px;
+    padding-left: 40%;
+    background-color: rgb(34, 11, 54);
+ }
+
+
+.nav-link.disabled{
+    color: black;
+}
+.card-body{ 
+    backdrop-filter: blur(15px);
+    background: transparent;
+} .card{
+    color: aliceblue;
+     border-radius: 10%;
+     backdrop-filter: blur(15px);
+     background: transparent;
+     margin-top: 6%;
+     border-color: rgb(53, 50, 50);
+ } */
+ body{
+    background-image: url("image/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+ 
+nav{
+    background-color:rgba(146, 118, 172, 0.5);
+   
+}
+.nav-link{
+   
+   color: rgb(203, 175, 203);
+}
+
+a.nav-link:hover{
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+
+}
+.hak{
+    width: 40%;
+    margin:7%;
+    background-color:rgba(225, 222, 228, 0.5);
+    padding:2%;
+    border-radius:20%;
+font-size: larger;
+}
+
+ h1{
+color: rgb(238, 220, 255);
+ }
+ .hobim{
+    
+    padding:5px;
+    padding-left: 40%;
+    background-color: rgb(34, 11, 54);
+ }
+
+
+.nav-link.disabled{
+    color: black;
+}
+.card-body{ 
+    margin-bottom: 30px;
+    backdrop-filter: blur(15px);
+    background: transparent;
+} .card{
+    color: aliceblue;
+     border-radius: 10%;
+     backdrop-filter: blur(15px);
+     background: transparent;
+    
+    
+     border-color: rgb(53, 50, 50);
+ } 
+ body {
+    background-image: url("image/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(146, 118, 172, 0.5);
+   
+    padding: 10px;
+}
+
+.nav-link {
+    color: rgb(203, 175, 203);
+    padding: 10px 15px;  
+}
+
+a.nav-link:hover {
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+} */
+/* Navbar bileşenleri*/ 
+.navbar {
+    background-color: rgba(146, 118, 172, 0.5);
+    padding: 10px; /* Navbar'ın içeriğinden kenarlara boşluk ekleyin */
+}
+
+.nav-link {
+    color: rgb(203, 175, 203);
+    padding: 10px 15px; /* Navbar bağlantılarının içeriği ile kenarları arasına boşluk ekleyin */
+}
+
+a.nav-link:hover {
+    background-color: rgb(70, 31, 106);
+    color: rgb(171, 139, 201);
+}
+
+
+/* .navbar-toggler-icon {
+    background-color: rgba(203, 175, 203, 0.5); 
+}   */
+/* Navbar collapse içeriği */
+.navbar-collapse {
+    
+    justify-content: flex-end; 
+}
